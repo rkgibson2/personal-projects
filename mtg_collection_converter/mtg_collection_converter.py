@@ -57,7 +57,7 @@ if __name__ == "__main__":
         print("Usage: {0} <input_file> [<output_file>]\nUse \"test\" as the argument if you want to see a test".format(sys.argv[0]))
     # check if first argument is test, then execute test
     elif sys.argv[1] == "test":
-        create_output("deckbox_collection.csv", "test.txt")
+        create_output("deckbox_collection.csv", "test_output.txt")
     elif len(sys.argv) == 2:
         create_output(sys.argv[1], "tappedout_collection.txt")
     else:
